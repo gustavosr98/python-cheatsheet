@@ -31,6 +31,7 @@ tp: tuple = (1,2,3)   # (1, 2, 3)
 (a, b, c) = tp        # a=1 | b=2 | c=3
 
 # SET
+st = set()
 st: set = {"a", "b", "c"}   # {'a', 'b', 'c'}
 st.add("a")                 # {'a', 'b', 'c'}
 st.add("a")                 # {'a', 'b', 'c'}
@@ -46,6 +47,7 @@ st.clear()                  # set()
 
 
 # DICTIONARY
+dic = {}
 dic: dict = {'a': 10, 'b': 20}
 dic['a']                  # 10
 dic.get('a')              # 10 
